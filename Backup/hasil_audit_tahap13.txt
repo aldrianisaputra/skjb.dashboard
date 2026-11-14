@@ -1,0 +1,85 @@
+=======================================================
+AUDIT APP.PY - TAHAP 13
+=======================================================
+Total baris: 731
+Jumlah fungsi: 32
+Jumlah blok import: 31
+
+=== FUNGSI DI APP.PY ===
+apply_plotly_theme: baris 134-156
+show_plotly: baris 158-161
+activate_dataset: baris 164-181
+use_dataset_for_analysis: baris 183-190
+delete_dataset_history: baris 193-215
+show_table: baris 223-237
+interactive_table: baris 239-271
+navigate_to_sidebar: baris 273-274
+card_container: baris 278-283
+section_header: baris 285-286
+metric_card: baris 288-289
+top_bar: baris 291-292
+parse_number_value: baris 300-319
+parse_number_series: baris 321-323
+normalize_column_key: baris 325-327
+clean_column_names: baris 345-348
+clean_loaded_dataframe: baris 350-355
+detect_sales_columns: baris 357-377
+score_sales_dataframe: baris 379-384
+find_column: baris 386-396
+preprocess_data: baris 399-467
+aggregate_product_data: baris 469-480
+get_active_selected_data: baris 482-507
+apply_date_filter: baris 509-519
+get_active_selected_data_filtered: baris 521-526
+get_active_product_data: baris 528-532
+reset_analysis_results: baris 534-535
+reset_date_filter_state: baris 537-539
+invalidate_stale_analysis: baris 541-548
+get_valid_clustering_result: baris 550-563
+login_page: baris 587-608
+sidebar_menu: baris 654-714
+
+=== DUPLIKASI FUNGSI ===
+Tidak ada duplikasi fungsi.
+
+=== KANDIDAT IMPORT TIDAK DIGUNAKAN ===
+PERIKSA: APP_DIR
+PERIKSA: DEFAULT_FILE
+PERIKSA: ET
+PERIKSA: KMeans
+PERIKSA: MYSQL_DATABASE
+PERIKSA: MYSQL_HOST
+PERIKSA: MYSQL_PORT
+PERIKSA: MYSQL_USER
+PERIKSA: StandardScaler
+PERIKSA: buat_rekomendasi
+PERIKSA: build_clustering_insight
+PERIKSA: csv
+PERIKSA: dataframe_from_json
+PERIKSA: dataframe_to_json
+PERIKSA: davies_bouldin_score
+PERIKSA: defaultdict
+PERIKSA: go
+PERIKSA: hashlib
+PERIKSA: hmac
+PERIKSA: io
+PERIKSA: json
+PERIKSA: load_latest_clustering_for_dataset
+PERIKSA: os
+PERIKSA: posixpath
+PERIKSA: px
+PERIKSA: pymysql
+PERIKSA: save_clustering_history
+PERIKSA: silhouette_score
+PERIKSA: validate_clustering_input
+PERIKSA: zipfile
+
+=== PEMERIKSAAN HALAMAN ===
+dashboard_page : SUDAH TIDAK DI APP.PY
+upload_page : SUDAH TIDAK DI APP.PY
+insight_page : SUDAH TIDAK DI APP.PY
+dataset_history_page : SUDAH TIDAK DI APP.PY
+clustering_history_page : SUDAH TIDAK DI APP.PY
+user_management_page : SUDAH TIDAK DI APP.PY
+
+AUDIT SELESAI - TIDAK ADA FILE YANG DIUBAH

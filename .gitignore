@@ -1,0 +1,38 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Konfigurasi Rahasia
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# File Sementara
+*.log
+.vscode/
+
+# Database SQLite
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# File executable
+sqlite3.exe
+
+# File Windows
+desktop.ini
+
+# File konfigurasi database (jika berisi password)
+config.py
+
+# Dataset lokal (jika berisi data asli)
+k-means.xlsx
